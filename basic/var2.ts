@@ -1,4 +1,4 @@
-const input = "123.45";
+const input1 = "123.45";
 
 const messageRecord = {
     body: 'Hello world!',
@@ -7,5 +7,7 @@ const messageRecord = {
     },
 };
 
-console.log(`入力値 ${parseInt(input)} に該当するメッセージ ${messageRecord}`);
-// => 入力値123 に該当するメッセージ：Hello World!
+console.log(`入力値 ${parseInt(input1)} に該当するメッセージ: ${messageRecord}`);
+
+const input2 = 123;
+console.log('入力値 %d に該当するメッセージ：%s', input2, messageRecord);

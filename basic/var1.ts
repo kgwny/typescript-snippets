@@ -1,9 +1,18 @@
-// var 変数名: 型名;
-// let 変数名: 型名;
- 
-//  例
-var n1: number = 0;
-let n2: number = 0;
+// varは非推奨
+// var name = 'hogehoge';
+// console.log(name);
 
-console.log(n1);
-console.log(n2);
+let hoge = 'hoge';
+console.log(hoge);
+
+hoge = 'fuga';
+console.log(hoge);
+
+// 再宣言できない
+//let hoge = 'piyo';
+
+const NAME = 'hogehoge';
+console.log(NAME);
+
+// 代入不可
+// NAME = 'hogehoge';

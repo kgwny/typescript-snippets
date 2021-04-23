@@ -1,5 +1,9 @@
 // Utilsクラス
 export default class Utils {
-    static doSomething(val: string) { return val; }
-    static doSomethingElse(val: string) { return val; }
+    static doSomething(val: string) {
+        console.log(val);
+    }
+    static doSomethingElse(val: string) {
+        console.log(val);
+    }
 }

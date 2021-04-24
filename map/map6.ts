@@ -15,6 +15,11 @@ const all: Menu = {
 };
   
 (Object.keys(all) as (keyof Menu)[]).map((key) => {
-    const data = all[key];
-    console.log(data);
+    //const data = all[key];
+    console.log(key, all[key].name, all[key].type, all[key].price);
+});
+
+// forEachを使う方法
+Object.keys(all).forEach(function (key) {
+    console.log(key, all[key].name, all[key].type, all[key].price);
 });

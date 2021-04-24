@@ -13,7 +13,6 @@ interface ItemsEmployees {
     employees: Employees[];
 }
 
-
 const items: Items = { id:'1', name:'経理部' }
 
 const itemsIncludesEmployees: ItemsEmployees[] = [

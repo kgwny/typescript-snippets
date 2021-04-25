@@ -4,6 +4,7 @@ const fruits = {
     melon: {name: 'メロン', price: 1000},
 };
   
+// map内の要素を全取得する
 Object.keys(fruits).map((key) => {
     const data = fruits[key];
     console.log(data);

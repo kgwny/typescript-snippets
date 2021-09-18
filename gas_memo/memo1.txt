@@ -1,0 +1,11 @@
+// シートを別のスプレッドシートにコピーする
+
+// 現在アクティブなスプレッドシートを取得
+var source = SpreadsheetApp.getActiveSpreadsheet();
+// そのスプレッドシートにある最初のシートを取得
+var sheet = source.getSheets()[0];
+
+// ID からスプレッドシートを取得
+var destination = SpreadsheetApp.openById('abc1234567');
+// 上記で取得したシートを、そのスプレッドシートにコピー
+sheet.copyTo(destination);
